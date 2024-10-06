@@ -4,12 +4,19 @@
  */
 package com.mycompany.dsagui.GradeMark;
 
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
 /**
  *
  * @author johnl
- */
-public class gradeMark {
-    public static void main(String[] args) {
-        
+ */ 
+public class gradeMark extends JFrame {
+    gradeMark(){
+        setSize(600,600);
+        setLayout(null);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
+        
+    
 }

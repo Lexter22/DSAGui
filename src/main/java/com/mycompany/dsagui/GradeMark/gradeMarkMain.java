@@ -9,8 +9,10 @@ package com.mycompany.dsagui.GradeMark;
  * @author johnl
  */
 public class gradeMarkMain {
-    
-    public static void main(String[] args) {
-        
+   
+     public static void main(String[] args) {
+          gradeMark grade = new gradeMark();
+          grade.setVisible(true);
+         
     }
 }
